@@ -90,5 +90,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 `services`
 
 > services are singleton in angular. they are like intialize once and used anywhere. we have defined utiliy services which contains utility methods and wrapper service for the http client and movie service to fetch the details of the move from the api
-
-> Contains all pages in the application. If there is any router implemented. It should load this components.
