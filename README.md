@@ -48,7 +48,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Clone the project.
 
 ```
-git clone git@github.com:gs9622/viaplay-test.git
+git clone git@github.com:gs96222/viaplay-test.git
 ```
 
 ## Start development
