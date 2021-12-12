@@ -30,6 +30,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
             └── movie view
 
 ```
+`assets`
+
+> Contains the static assets like images.
+
+`components`
+
+> it contains all components that is being used in the development of the application.
+
+`services`
+
+> services are singleton in angular. they are like intialize once and used anywhere. we have defined utiliy services which contains utility methods and wrapper service for the http client and movie service to fetch the details of the move from the api
+
 
 ## Installation Guide
 
@@ -78,15 +90,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-`assets`
-
-> Contains the static assets like images.
-
-`components`
-
-> it contains all components that is being used in the development of the application.
-
-`services`
-
-> services are singleton in angular. they are like intialize once and used anywhere. we have defined utiliy services which contains utility methods and wrapper service for the http client and movie service to fetch the details of the move from the api
