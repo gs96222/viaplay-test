@@ -1,0 +1,33 @@
+.dialog-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-details {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 24px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 5px 10px #b0bec5, 0 15px 40px #b0bec5;
+}
+
+mat-toolbar {
+  justify-content: space-between;
+  white-space: unset;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}

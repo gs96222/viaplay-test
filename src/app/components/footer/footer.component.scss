@@ -1,0 +1,21 @@
+.footerText {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+  white-space: unset;
+}
+
+:host {
+  flex-shrink: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .footerText {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

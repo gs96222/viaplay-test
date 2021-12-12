@@ -1,0 +1,10 @@
+.movieListContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 16px;
+}
+
+.mainContainer {
+  padding: 16px 0px;
+  flex: 1;
+}

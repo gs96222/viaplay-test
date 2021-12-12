@@ -1,0 +1,14 @@
+<!-- Movie component which display a list of movie image cards -->
+<div #movieContainer class="mainContainer">
+  <div class="movieListContainer">
+    <app-movie-cards #movies
+      *ngFor="let movie of movies;let idx=index"
+      [imageUrl]="movie.content.images.landscape.url"
+      [name]="movie.content.series.title"
+      [year]="movie.content.production.year"
+      [currentIndex]="currentIndex"
+      [index]="idx"
+      (mouseover)="changeCurrentIndex(idx)"
+    ></app-movie-cards>
+  </div>
+</div>

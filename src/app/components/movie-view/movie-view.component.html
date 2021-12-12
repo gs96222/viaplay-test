@@ -1,0 +1,12 @@
+<div class="dialog-container"> 
+    <mat-toolbar>
+        <div class="movie-details">
+        <strong><h1>{{movieName}} ({{year}})</h1></strong>
+        </div>
+        <button mat-dialog-close class="btn-dialog-close" mat-stroked-button tabIndex="-1"><mat-icon>clear</mat-icon></button>
+    </mat-toolbar>
+    
+    <div class="image-container">
+        <img [src]="image">
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<!-- movie card component which displays the image of the movie and its details-->
+<div #card (click)="openDialog()" class="card-container" [ngClass]="index == currentIndex ? 'selected' : ''">
+    <div class="card-details">
+      <h3>{{name}}</h3>
+      <span>{{year}}</span>
+    </div>
+    <img
+      [src]="imageUrl"
+      alt="Photo of a Shiba Inu"
+    />
+</div>

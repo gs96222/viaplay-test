@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  serviceAPIs: {
+    baseUrl: "https://content.viaplay.se/",
+    moviesList: "/pc-se/serier/samtliga"
+  }
 };
 
 /*
